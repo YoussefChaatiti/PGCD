@@ -1,0 +1,13 @@
+
+def pgcd_Euclide (a,b):
+    c,d,e,i=0,0,0,0
+    while i==0 :
+        d=a//b
+        e=c
+        c=a%b
+        if c==0:
+            print("le PGCD est:",e)
+            i+=1
+        else:
+            a=b
+            b=c
